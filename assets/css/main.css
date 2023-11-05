@@ -2466,6 +2466,18 @@ input, select, textarea {
 		padding-left: 1em;
 	}
 
+	.solo-list {
+		/* Place bullets inside the list item */
+		/* list-style-position: inside;  */
+		padding-left: 1em; /* Adjust the left padding to control spacing */	
+		list-style-type: none;  
+		
+	}
+	.solo-list li {
+		text-align: left;
+		/* margin-left: 15px; */		
+	}
+
 		ul li {
 			padding-left: 0.5em;
 		}
@@ -2561,6 +2573,7 @@ input, select, textarea {
 			}
 
 		@media screen and (max-width: 480px) {
+
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -3388,6 +3401,16 @@ input, select, textarea {
 				.slack {
 					height: 3em;
 					width: 3em;
+				}
+
+				.solo-list li {
+					/* text-align: center; */
+					text-align: left;
+					margin-left: 1em;
+				}
+
+				.solo {
+					padding-right: 1em;
 				}
 
 		/* Main */
