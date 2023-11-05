@@ -2302,35 +2302,49 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon.style1:before {
+/* ~~~~~~~~~~ Original Icon Styling ~~~~~~~~~~ */
+
+    
+		/* .icon.style1:before {
 			color: #c3e895;
 		}
 
-		.icon.style2:before, .brand.style2:before {
+		.icon.style2:before {
 			color: #8addaa;
+		} */
+
+		/* .icon.style3:before {
+			color: #6bd4c8;
+		} */
+
+		/* .icon.style4:before {
+			color: #57aed3;
+		} */
+
+		/* .icon.style6:before {
+			color: #6b88e6;
+		} */		
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+		.brand.style-vscode:before {
+			/* color: #6A0DAD; */
+			color: #8E33FF
 		}
 
 		.brand.style-js:before {
 			color: yellow;
-		}
-
-		.icon.style3:before, .brand.style3:before {
-			color: #6bd4c8;
-		}
+		}			
 
 		.brand.style-html:before {
 			color: #E34F26;
-		}
-
-		.icon.style4:before, .brand.style4:before {
-			color: #57aed3;
-		}
+		}	
 
 		.brand.style-react:before {
 			color: #61DAFB;
 		}
 
-		.brand.style5:before {
+		.brand.style-npm:before {
 			color: #CB3837;
 		}
 
@@ -2340,10 +2354,6 @@ input, select, textarea {
 
 		.brand.style-sql:before {
 			color: #4A90E2;
-		}
-
-		.icon.style6:before, .brand.style6:before {
-			color: #6b88e6;
 		}
 
 		.brand.style-nodejs:before {
@@ -2592,23 +2602,28 @@ input, select, textarea {
 		margin-top: 25%;
 	}	
 
-	ul.icons {
+	ul.icons, .top-icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
 	}
 
-		ul.icons li {
+		ul.icons li, ul.top-icons li {
 			display: inline-block;
 			padding: 0 1.25em 0 0;
 		}
 
-			ul.icons li:last-child {
+			ul.icons li:last-child, ul.top-icons li:last-child {
 				padding-right: 0;
 			}
 
 			ul.icons li .icon:before {
 				font-size: 1.5em;
+			}
+
+			ul.top-icons li .icon:before {
+				font-size: 2.5em;
+				/* color: ghostwhite; */
 			}
 
 /* Major Icons */
