@@ -117,8 +117,12 @@ input, select, textarea {
 		text-decoration: none;
 	}
 
-		a:hover {
-			border-bottom-color: transparent !important;
+	#eda {
+		color: #6A5ACD;
+	}
+		/* Link on hover */
+		#eda:hover {
+			/* border-bottom-color: transparent !important; */
 			color: #6bd4c8;
 		}
 
@@ -2430,7 +2434,21 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.fit #headshot {
+				width: 50%;
+				margin: 0 auto;
+			}
+
 /* List */
+
+	.leadership {
+		list-style: none;
+		padding-left: 0;
+	}
+
+	/* .leadership li {
+		margin-bottom: 10px;
+	} */
 
 	ol {
 		list-style: decimal;
@@ -2977,9 +2995,13 @@ input, select, textarea {
 		#header a {
 			border-bottom-color: rgba(255, 255, 255, 0.5);
 		}
-
+			/* Header Link Icons */
 			#header a:hover {
-				color: #ffffff;
+				color: black;
+			}
+
+			#header #linkedin:hover {
+				color: #0077B5;
 			}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6, #header strong, #header b {
