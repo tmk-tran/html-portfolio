@@ -2655,9 +2655,13 @@ input, select, textarea {
 			}
 
 			ul.top-icons li .icon:before {
-				font-size: 2.5em;
-				/* color: ghostwhite; */
+				font-size: 2em;
 			}
+/* 
+			ul.icons li, ul.top-icons li {
+
+			} */
+
 
 /* Major Icons */
 
@@ -3559,11 +3563,7 @@ input, select, textarea {
 			#header {
 				padding: 4em 2em 4em 2em ;
 			}
-
-				#header br {
-					display: none;
-				}
-
+	
 		/* Footer */
 
 			#footer {
