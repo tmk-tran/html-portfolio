@@ -3609,6 +3609,9 @@ input, select, textarea {
 				padding: 3em 1em 3em 1em ;
 			}
 
+			.top-icons {
+				display: none;
+			}
 		/* Footer */
 
 			#footer {
