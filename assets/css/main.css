@@ -3563,6 +3563,10 @@ input, select, textarea {
 			#header {
 				padding: 4em 2em 4em 2em ;
 			}
+
+			#intro {
+				margin-bottom: 10px;
+			}
 	
 		/* Footer */
 
