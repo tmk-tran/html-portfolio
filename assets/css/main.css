@@ -2393,11 +2393,10 @@ input, select, textarea {
 
 /* Image */
 
-#scoremark:hover, #sagaflix:hover, #to-do:hover {
+/* #scoremark:hover, #sagaflix:hover, #to-do:hover {
 		transform: scale(1.1);
 		box-shadow: 8px 8px 14px rgba(0, 0, 0, 0.6);
-
-	}
+	} */
 
 	.image {
 		border-radius: 4px;
